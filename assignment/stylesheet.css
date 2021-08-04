@@ -1,26 +1,28 @@
 header {
-  background-color: grey;
+  background: radial-gradient(crimson, skyblue);
   text-align: center;
 }
 
 .info {
-  background-color: red;
+  background: content-box radial-gradient(crimson, skyblue);
   color: white;
 }
 
 h2 {
   background-color: purple;
   text-align: center;
+  opacity: 0.5;
 }
 
 h3 {
   background-color: purple;
   text-align: center;
+  opacity: 0.5;
 }
 
 img {
   border: 1px solid black;
-  border-radius: 4px;
+  border-radius: 50%;
   width: 400px;
   display: block;
   margin-left: auto;
